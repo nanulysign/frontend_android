@@ -60,7 +60,6 @@ public class WifiCellAdapter extends RecyclerView.Adapter<WifiCellAdapter.ViewHo
 
     @Override
     public void onBindViewHolder(WifiCellAdapter.ViewHolder holder, final int position) {
-        Debug.LOGD(position + " position   " + mItems.size()+" size  "  +mItems.get(position).getSsid());
         holder.ssid.setText(mItems.get(position).getSsid());
         holder.rssi.setText(mItems.get(position).getRssi()+"");
         if(mItems.get(position).getIsProtected()){
