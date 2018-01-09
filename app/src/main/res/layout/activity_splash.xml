@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.inu.wcl.signage_wifi_helper.SplashActivity">
+    tools:context="com.inu.wcl.signage_wifi_helper.activity.SplashActivity">
 
     <LinearLayout
         android:background="#FFFFFF"

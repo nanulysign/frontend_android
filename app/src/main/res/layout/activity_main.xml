@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.inu.wcl.signage_wifi_helper.MainActivity">
+    tools:context="com.inu.wcl.signage_wifi_helper.activity.MainActivity">
 
 
     <LinearLayout
@@ -21,10 +21,12 @@
             android:layout_width="match_parent"
             android:layout_height="30dp"></View>
 
-        <View
-            android:background="#AABBCC"
+
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/wList_rv"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"></View>
+            android:layout_height="wrap_content"></android.support.v7.widget.RecyclerView>
+
 
     </LinearLayout>
 
